@@ -2,9 +2,11 @@
   <hello-world msg="Welcome to Your Vue.js App" />
   <single-component />
   <parent-component />
+  <click-event />
 </template>
 
 <script>
+import ClickEvent from './components/ClickEvent.vue'
 import HelloWorld from './components/HelloWorld.vue'
 import SingleComponent from './components/SingleComponent.vue'
 import ParentComponent from './components/ParentComponent.vue'
@@ -13,7 +15,8 @@ export default {
   components: {
     HelloWorld,
     SingleComponent,
-    ParentComponent
+    ParentComponent,
+    ClickEvent
   }
 }
 </script>
