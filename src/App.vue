@@ -1,15 +1,16 @@
 <template>
-
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <hello-world msg="Welcome to Your Vue.js App" />
+  <single-component />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import SingleComponent from './components/SingleComponent.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    SingleComponent
   }
 }
 </script>
